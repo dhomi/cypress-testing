@@ -1,0 +1,8 @@
+node_modules/
+cypress/videos
+tmp/
+.idea/
+.vscode/
+debug.log
+ids.csv
+ind.csv

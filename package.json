@@ -1,0 +1,31 @@
+{
+  "name": "happy-cypress-testing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "End to end testing for happy cypress learning with Beni Dhomi",
+  "homepage": "https://dhomi.nl",
+  "author": "Beni Dhomi",
+  "license": "Open Source",
+  "main": "src",
+  "scripts": {
+    "lint": "npx eslint cypress --ext js --fix",
+    "e2e:gui": "npx cypress open run",
+    "e2e:headless": "npx cypress run --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhomi/cypress-testing.git"
+  },
+  "devDependencies": {
+    "cypress": "6.5.0",
+    "cypress-xpath": "1.6.2",
+    "eslint": "^7.20.0",
+    "eslint-plugin-cypress": "2.11.2",
+    "ts-loader": "^7.0.0",
+    "typescript": "^4.1.2",
+    "tslint": "^6.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.0"
+  }
+}

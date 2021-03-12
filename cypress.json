@@ -1,0 +1,20 @@
+{
+  "env": {
+    "baseUrl": "http://localhost:8080"
+  },
+  "fixturesFolder": "./cypress/fixtures",
+  "integrationFolder": "./cypress/integration",
+  "pluginsFile": "./cypress/plugins",
+  "ignoreTestFiles": "*.html",
+  "video": false,
+  "videosFolder": "./tmp",
+  "chromeWebSecurity": false,
+  "json": true,
+  "encoding": "utf8",
+  "gzip": true,
+  "timeout": 50000,
+  "followRedirect": true,
+  "failOnStatusCode": true,
+  "retryOnNetworkFailure": true,
+  "retryOnStatusCodeFailure": false
+}
