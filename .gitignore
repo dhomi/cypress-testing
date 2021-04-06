@@ -1,8 +1,8 @@
 node_modules/
-cypress/videos
+**videos**
+**screenshot**
 tmp/
 .idea/
 .vscode/
 debug.log
-ids.csv
-ind.csv
+

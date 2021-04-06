@@ -1,7 +1,5 @@
 {
-  "env": {
-    "baseUrl": "http://localhost:8080"
-  },
+  "baseUrl": "http://localhost",
   "fixturesFolder": "./cypress/fixtures",
   "integrationFolder": "./cypress/integration",
   "pluginsFile": "./cypress/plugins",
