@@ -1,9 +1,11 @@
 {
-  "baseUrl": "http://localhost",
+  "baseUrl": "https://example.cypress.io",
   "fixturesFolder": "./cypress/fixtures",
   "integrationFolder": "./cypress/integration",
   "pluginsFile": "./cypress/plugins",
   "ignoreTestFiles": "*.html",
+  "screenshotOnRunFailure": false,
+  "screenshotsFolder": "./tmp",
   "video": false,
   "videosFolder": "./tmp",
   "chromeWebSecurity": false,
@@ -12,7 +14,7 @@
   "gzip": true,
   "timeout": 50000,
   "followRedirect": true,
-  "failOnStatusCode": true,
+  "failOnStatusCode": false,
   "retryOnNetworkFailure": true,
-  "retryOnStatusCodeFailure": false
+  "retryOnStatusCodeFailure": true
 }

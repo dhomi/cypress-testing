@@ -1,21 +1,40 @@
 {
+  "root": true,
   "compileOnSave": false,
+  "plugins": "@typescript-eslint",
+  "include": [
+    "cypress/**/*.ts"
+  ],
   "compilerOptions": {
-    "allowJs": true,
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
+    "target": "es2020",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
-    "types": ["node", "cypress"]
-  }
+    "resolveJsonModule": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "incremental": true,
+    "outDir": "./tmp/out-tsc",
+    "noEmit": true,
+    // "baseUrl": "./",
+    // "sourceMap": true,
+    // "declaration": false,
+    // "downlevelIteration": true,
+    // "experimentalDecorators": true,
+    // "importHelpers": true,
+  },
+  "lib": [
+    "ES2020",
+    "ES5",
+    "DOM",
+    "ESNext",
+    "DOM.Iterable"
+  ],
+  "types": [
+    "node",
+    "cypress",
+    "cypress-xpath"
+  ]
 }

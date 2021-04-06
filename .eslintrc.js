@@ -6,7 +6,12 @@ module.exports = {
         "cypress/globals": true
     },
     "parserOptions": {
-        "ecmaVersion": 12
+        "ecmaVersion": 2020,
+        "sourceType": "module", // Allows for the use of imports
+        "ecmaFeatures": {
+            "jsx": true, // Allows for the parsing of JSX
+            "ts": true,
+        },
     },
     "rules": {
         "semi": ["error", "always"],
@@ -20,6 +25,15 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "plugin:cypress/recommended"
+        "plugin:cypress/recommended",
+    ],
+    "overrides": [
+        {
+            "files": ["cypress/**/*.ts"],
+            "excludedFiles": "*.json",
+            "rules": {
+                "quotes": ["error", "single"]
+            }
+        }
     ]
 };

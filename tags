@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combine/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	C:/DEV/REPO/cypress-testing/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/2aa034a3/
+API	cypress/support/API.ts	/^export class API {$/;"	c
+ID	cypress/fixtures/example.json	/^  "ID": "niks nog"$/;"	s
+apiUrl	cypress/support/API.ts	/^  static get apiUrl() {$/;"	m	class:API
+baseUrl	cypress/support/API.ts	/^  static get baseUrl() {$/;"	m	class:API
+body	cypress/fixtures/example.json	/^  "body": "Fixtures are a great way to mock data for responses to routes",$/;"	s
+email	cypress/fixtures/example.json	/^  "email": "hello@cypress.io",$/;"	s
+name	cypress/fixtures/example.json	/^  "name": "Using fixtures to represent data",$/;"	s
+postRequest	cypress/support/API.ts	/^  static postRequest(payload: any) {$/;"	m	class:API
+qs	cypress/support/API.ts	/^    const qs: {} = {'clientID': 100}$/;"	C	method:API.postRequest

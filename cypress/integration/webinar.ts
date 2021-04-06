@@ -1,17 +1,31 @@
 /// <reference types="cypress" />
 
-// url to use: https://example.cypress.io/commands/actions
+// *** THIS TEST COVERS THE FOLLOWING ***
+// 
+// Test structure: describe/it
+// Visit a url in cypress
+// How to use the browsers Web Inspector
+// Get a css-element for usage in cypress: cy.get('element')
+// Type in a input field
+// Click one button
+// Use variables
+// 
+// ***   ***
 
-describe("My pizza test", () => {
+describe("Frontend test one", () => {
 
-    it("First script", () => {
-        // cy.visit('url')
+    it("Login, use element, click & type", () => {
+        cy.visit('https://example.cypress.io/commands/actions') // Visit a url in cypress
 
-        // cy.get('xpath')
+        // How to use the browsers Web Inspector
+        cy.xpath('//*[@id="couponCode1"]') // Get a xpath for usage in cypress: cy.xpath('xpath')
+            .type('pizza') // Type in a input field
 
-        // cy.get('xpath').click()
-        // cy.log('log', var)
-        // cy.get('xpath').should('be.visible')
+        cy.get('button.btn:nth-child(2)') // Get a css-element for usage in cypress: cy.get('element')
+            .click() // Click one button
+
+        cy.xpath('/html/body/div[2]/div/div/div[14]/div/p')
+            .should('contain', 'submitted!')
 
     })
 
