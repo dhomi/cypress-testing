@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 tsconfig.tsbuildinfo
 
+#vim swap files
+*.swap
+
 # Runtime data
 pids
 *.pid
