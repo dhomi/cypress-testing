@@ -8,7 +8,8 @@
   "license": "Open Source",
   "main": "src",
   "scripts": {
-    "lint": "npx eslint cypress --ext js --fix",
+    "lint": "npx tsc -p tsconfig.json",
+    "lint:js": "npx eslint cypress --ext js --fix",
     "e2e:gui": "npx cypress open run",
     "e2e:headless": "npx cypress run --headless"
   },
