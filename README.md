@@ -1,5 +1,7 @@
 # Description
 Learn happy automation testing with cypress and Beni Dhomi
+- Download the CheatSheet pdf here: https://github.com/dhomi/cypress-testing/CypressCheatsheet-v3.2.pdf
+
 
 ## Installation
 - 1 The NodeJs must first be installed in Windows: https://nodejs.org/en/download/    
