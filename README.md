@@ -1,7 +1,7 @@
 # Description
 Learn happy automation testing with cypress and Beni Dhomi
 
-Download the CheatSheet pdf here: https://github.com/dhomi/cypress-testing/CypressCheatsheet-v3.2.pdf
+Download the CheatSheet pdf here: https://github.com/dhomi/cypress-testing/raw/main/CypressCheatsheet-v3.2.pdf
 
 
 ## Installation
