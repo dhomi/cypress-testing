@@ -8,6 +8,7 @@ tsconfig.tsbuildinfo
 
 #vim swap files
 *.swap
+*.swp
 
 # Runtime data
 pids
