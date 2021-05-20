@@ -6,6 +6,7 @@
     "cypress/**/*.ts"
   ],
   "compilerOptions": {
+    "baseUrl": "https://example.cypress.io",
     "target": "es2020",
     "allowJs": false,
     "skipLibCheck": true,

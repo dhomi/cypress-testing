@@ -16,5 +16,6 @@
   "followRedirect": true,
   "failOnStatusCode": false,
   "retryOnNetworkFailure": true,
-  "retryOnStatusCodeFailure": true
+  "retryOnStatusCodeFailure": true,
+  "strict-ssl": false
 }
