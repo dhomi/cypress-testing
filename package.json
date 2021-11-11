@@ -18,7 +18,7 @@
     "url": "https://github.com/dhomi/cypress-testing.git"
   },
   "devDependencies": {
-    "cypress": "6.5.0",
+    "cypress": "8.0.0",
     "cypress-xpath": "^1.6.2",
     "ts-loader": "^7.0.0",
     "tslint": "^6.1.0",
