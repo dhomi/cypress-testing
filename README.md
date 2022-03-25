@@ -27,7 +27,6 @@ Edit your tests in the cypress/integration folder. You can choose for javascript
     - ```npm run e2e:gui```
 - intelliJ users: open the ```package.json``` file, then click the ```play``` button left of the e2e:gui (thats line number: 13)
 
-
 ---
 ## For future use and to help you with Jenkins/CI command
 ### cli interface: it runs all tests in command line
